@@ -4,7 +4,7 @@
 
 
 def palindrome_check(string):
-    string.lower()
+    string = string.lower()
 
     if len(string) == 0 or len(string) == 1:
         print("Yes it is")
